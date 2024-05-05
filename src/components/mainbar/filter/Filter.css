@@ -25,7 +25,7 @@
 .filter-button:hover, .filter-button.active {
     background-color: var(--primary-color); /* Utilize CSS variable for primary color */
     color: white;
-    border-color: darken(var(--primary-color), 10%); /* Assuming use of a preprocessor for darkening */
+    border-color: var(--primary-color); /* Assuming use of a preprocessor for darkening */
 }
 
 /* Dropdown menu styling */

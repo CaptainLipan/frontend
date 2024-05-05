@@ -1,4 +1,4 @@
-    import react from 'react';
+    import React from 'react';
     import './Posts.css';
     import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
     import ThumbDownOffAltIcon from '@mui/icons-material/ThumbDownOffAlt';
