@@ -1,6 +1,6 @@
 import React from 'react';
 import './Actions.css';
-import Button from "../button/Button"; // Make sure the path is correct
+import Button from "../../button/Button"; // Make sure the path is correct
 import PersonIcon from '@mui/icons-material/Person';
 import { ArrowDropDown } from "@mui/icons-material";
 

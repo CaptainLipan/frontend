@@ -4,10 +4,12 @@ import './Button.css';
 interface ButtonProps {
     primary?: boolean;
     label: string;
+    className?: string;  // Optional className for additional styling
 }
-export default function Button({primary, label}: ButtonProps) {
-    if (primary) {
-        return <div className="button primary-button">{label}</div>
-    } else
-        return <div className="button secondary-button">{label}</div>
+
+export default function Button({ primary, label, className }: ButtonProps) {
+    const buttonClass = primary ? "button primary-button" : "button secondary-button";
+    return (
+        <div className={`${buttonClass} ${className || ''}`}>{label}</div>
+    );
 }
